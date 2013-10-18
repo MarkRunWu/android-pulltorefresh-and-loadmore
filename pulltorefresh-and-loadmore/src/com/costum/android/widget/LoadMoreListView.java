@@ -115,7 +115,7 @@ public class LoadMoreListView extends ListView implements OnScrollListener {
 	public void setOnLoadMoreListener(OnLoadMoreListener onLoadMoreListener) {
 		mOnLoadMoreListener = onLoadMoreListener;
 	}
-
+	//It exist one bug: It will not be called when the listview size is not larger than screen heights
 	public void onScroll(AbsListView view, int firstVisibleItem,
 			int visibleItemCount, int totalItemCount) {
 
