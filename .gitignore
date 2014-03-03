@@ -1,5 +1,9 @@
 .classpath
 .project
 .settings
+*.iml
 bin
 gen
+build-types/
+build/
+.gradle
